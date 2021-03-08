@@ -49,7 +49,7 @@ class CardImageAndIcons extends StatelessWidget {
               )
             ),
             Container(
-              height: size.height * 0.8,
+              height: size.height * 0.5,
               width: size.width * 0.72,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(
@@ -65,7 +65,7 @@ class CardImageAndIcons extends StatelessWidget {
                 image: DecorationImage(
                   alignment: Alignment.centerLeft,
                   fit: BoxFit.cover,
-                  image: AssetImage("assets/images/arranjo1.png")
+                  image: AssetImage("assets/images/vasoTransPeq.png")
                 )
               )
             ),

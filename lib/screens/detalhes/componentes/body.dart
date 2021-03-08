@@ -12,7 +12,7 @@ class Body extends StatelessWidget {
         children: [
           CardImageAndIcons(size: size),
           TitleAndPreco(
-            title: "Arranjo Médio",
+            title: "Vaso Mandala",
             preco: 65,
           ),
           SizedBox(height: kDefaultPadding),

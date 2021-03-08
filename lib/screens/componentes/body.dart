@@ -15,7 +15,7 @@ class Body extends StatelessWidget {
         children: [
           HeaderWithSeachBox(size: size),
           TitleWithMoreBtn(
-            title: "Promoções Imperdíveis",
+            title: "Dia de Promoções",
             press: (){ },),
             PromocoesPlantas(),
             TitleWithMoreBtn(

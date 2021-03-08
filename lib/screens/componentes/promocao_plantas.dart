@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:otakehouse/screens/componentes/title_with_more_btn.dart';
 import 'package:otakehouse/constantes.dart';
 import 'package:otakehouse/screens/detalhes/componentes/detalhes_screen.dart';
+import 'package:otakehouse/screens/detalhes/componentes/detalhes_screen2.dart';
 
 class PromocaoCards extends StatelessWidget {
   const PromocaoCards({
@@ -105,7 +106,7 @@ class PromocoesPlantas extends StatelessWidget {
               Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => DetalhesScreen(),
+                    builder: (context) => DetalhesScreen2(),
                   ));
             },
           ),
