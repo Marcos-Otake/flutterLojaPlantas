@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:otakehouse/constantes.dart';
 import 'package:otakehouse/screens/componentes/home_screen.dart';
 
-void main(){
+void main() {
   runApp(MyApp());
 }
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Otake Plantas ',
+      title: 'Receitas pão Caseiro',
       theme: ThemeData(
         scaffoldBackgroundColor: kBackgroundColor,
         primaryColor: kPrimaryColor,
@@ -23,4 +23,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-

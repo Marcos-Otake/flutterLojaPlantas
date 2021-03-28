@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../../constantes.dart';
 
 class TitleWithCustomUnderline extends StatelessWidget {
